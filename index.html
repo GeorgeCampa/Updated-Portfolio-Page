@@ -1,65 +1,74 @@
-<!doctype html>
-<html lang="en-us">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio | George Campa</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>George Cmapa - About Me</title>
 </head>
 
 <body>
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">George</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+  <nav class="d-flex navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand pl-3" href="index.html">George Campa</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="index.html">About |</a>
+        <a class="nav-item nav-link" href="portfolio.html">Portfolio |</a>
+        <a class="nav-item nav-link" href="contact.html">Contact</a>
+      </div>
     </div>
-  </header>
+  </nav>
 
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Portfolio</h1>
 
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
+  <div class="container pb-5">
+    <div>
 
-        <h3>Word Guess</h3>
+      <img class="square_image mt-3" src="Image/IMG_1035.jpeg" alt="George Campa" width="400px">
+      <div class="paragraph mt-4">
+        <h1 class="ml-1">About Me</h1>
+
+        <p>Hello, my name is George Campa. I am a full time student at the University of Arizona. At the conclusion of
+          my program, I will be trained in the following programs Mongo, Express, React, & Node. I will also have
+          experience with creating front end designs using Bootstrap,JQuery, and HTML, CSS, and Javascript.</p>
+
+        <p>I have been working under the Human Resources umbrella for the past twelve years. I have experience with
+          recruitment, staffing, direct and inderect hiring as well as presenting new employee orientations to name a
+          few.For the last three years my sole focus has been in benefits and compensation. One of the big projects I had
+          the privilege of working on was opening a new casino in the Phoenix area as a Recruiter and for the second phase
+          as a Compensation and Benefits Specialist.</p>
+
+        <p>My ultimate goal is to work with great people, creating great software. It's nerve racking but I am ready
+            to take on the challenge of a new career. I am driven, and enjoy new challenges head-on and grow experiences.</p>
+
+        <p>Please enjoy my portfolio for a representation of skills and contact me for further inquiries.</p>
+
       </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
-
-        <h3>RPG Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
-
-        <h3>Trivia Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
-
-        <h3>Rutgers Info Widget</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
-
-        <h3>Rock Paper Scissors</h3>
-      </div>
-
-    </section>
-
+    </div>
   </div>
 
-  <footer>
-    <div class="container">
-      Copyright &copy;
+  <div class="card bottom mt-5">
+    <div class="card-header text-center">
+      Copyright 2019
     </div>
-  </footer>
+  </div>
 </body>
 
 </html>

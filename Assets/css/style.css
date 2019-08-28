@@ -1,3 +1,9 @@
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
+
+
 @import url('https://fonts.googleapis.com/css?family=Pacifico|Patua+One');
 
 * {
@@ -117,3 +123,4 @@ i.fa-linkedin:before {
 i.fa-github:before {
     color: white;
 }
+
